@@ -172,6 +172,17 @@ a {
 ### 6.2.7 line-height行高
 
 
+```
+.title {
+     line-height: 80px;
+     text-align: center;
+}
+```
+
+> * line-height 属性设置行间的距离（行高），属性值可以为数值也可以为百分比。
+
+> line-height妙用：设置文字居上下中展示
+
 
 
 
