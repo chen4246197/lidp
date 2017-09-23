@@ -143,6 +143,23 @@
 
 ### 6.2.5 text-decoration字体修饰
 
+| text-decoration选项值 | 描述 |
+| :---: | :---: | 
+| none | **把文本排列到左边。默认值：由浏览器决定。** |
+| underline | 定义文本下的一条线。 |
+| overline | 定义文本上的一条线。 | 
+| line-through |定义穿过文本下的一条线。 | 
+
+> * 实例：去掉a标签的底部线条
+
+```
+a {
+    text-decoration: none;
+}
+
+```
+
+
 
 
 
