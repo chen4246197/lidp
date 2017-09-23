@@ -141,6 +141,11 @@
 | center | 把文本排列到中间 | 
 | justify | 实现两端对齐效果 | 
 
+### 6.2.5 text-decoration字体修饰
+
+
+
+
 
 
 
