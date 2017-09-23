@@ -1,14 +1,19 @@
-#6.CSS常用的属性
+# 6.CSS常用的属性
+
 > * CSS常见属性如下面三类
 
 ![](/assets/CSSchangyongshuxingg.png)
-***
-##6.1背景属性
+
+---
+
+## 6.1背景属性
+
 > * 背景属性如下面5类
 
 ![](/assets/beijingshuxing.png)
 
-###6.1.1 background-color 设置元素背景色
+### 6.1.1 background-color 设置元素背景色
+
 ```
 <style>
     /* 给.box的背景色设置为红色 */
@@ -17,23 +22,22 @@
     }
 </style>
 ```
-> * 使用 background-color 属性为元素设置背景色，其默认值是 transparent 也就是“透明”的意思，可使用颜色名称、RGB、RGBA、十六进制数来指定颜色(例如#ffff等)。
 
-##6.1.2 background-image背景图片
+> * 使用 background-color 属性为元素设置背景色，其默认值是 transparent 也就是“透明”的意思，可使用颜色名称、RGB、RGBA、十六进制数来指定颜色\(例如\#ffff等\)。
 
+## 6.1.2 background-image背景图片
 
 ```
 .box {
     background-image: url("img/bg.jpg");
 }
-
 ```
+
 > * 其默认值是 none，表示背景上没有放置任何图像。
+>
+> 如果需要设置一个背景图像，必须为这个属性设置一个 URL 值。
 
->如果需要设置一个背景图像，必须为这个属性设置一个 URL 值。
-
-##6.1.3 background-repeat背景图片是否重复
-
+## 6.1.3 background-repeat背景图片是否重复
 
 ```
 .box {
@@ -41,21 +45,19 @@
     /* 设置图片不重复平铺 */
     background-repeat: no-repeat;
 }
-
 ```
+
 > * 使用 background-repeat 属性设置背景图片是否重复。
+>
+> repeat 重复（默认值）
+>
+> repeat-x 图片在横向上平铺
+>
+> repeat-y 图片在纵向上平铺
+>
+> no-repeat 不重复平铺
 
->repeat 重复（默认值）
-
->repeat-x 图片在横向上平铺
-
->repeat-y 图片在纵向上平铺
-
->no-repeat 不重复平铺
-
-
-##6.1.4 background-position背景位置
-
+## 6.1.4 background-position背景位置
 
 ```
 .box {
@@ -68,14 +70,13 @@
     /*左下角对齐*/
     background-position: left bottom;
 }
-
 ```
-> * 可以使用长度值，如 100px，最后也可以使用百分数值。
 
+> * 可以使用长度值，如 100px，最后也可以使用百分数值。
+>
 > 可以使用一些关键字：top、bottom、left、right 和 center，不能超过两个关键字，一个对应水平方向，另一个对 应垂直方向。
 
-##6.1.5 background-attachment背景关联
-
+## 6.1.5 background-attachment背景关联
 
 ```
 .box {
@@ -86,17 +87,51 @@
     background-attachment: fixed;
 }
 ```
-> * 如果文档比较长，那么当文档向下滚动时，背景图像也会随之滚动。当文档滚动到超过图像的位置时，图像就会消》> 失，可以通过 background-attachment 属性防止这种滚动。
-> 通过这个属性，可以声明图像相对于可视区是固定的（fixed），因此不会受到滚动的影响
+
+> * 如果文档比较长，那么当文档向下滚动时，背景图像也会随之滚动。当文档滚动到超过图像的位置时，图像就会消》&gt; 失，可以通过 background-attachment 属性防止这种滚动。
+>   通过这个属性，可以声明图像相对于可视区是固定的（fixed），因此不会受到滚动的影响
+
+## 6.2文本属性
+
+![](/assets/wenbenshuxing.png)
+
+> * **CSS 文本属性**可定义文本的外观。
+>
+> 通过文本属性，您可以改变文本的颜色、字符间距，对齐文本，装饰文本，对文本进行缩进，等等。
+
+### 6.2.1 color文本的颜色
+
+> * 可使用颜色名称、RGB、RGBA、十六进制数来指定颜色。
+
+### 6.2.2 opacity透明度
+
+> * opacity用来设置透明度，默认值为1，1为不透明，0为完全透明。
+>
+> `p{ opacity: 0;}` 隐藏一个元素 ，完全不显示，但是会占空间，只是看不到。
+
+### 6.2.3font字体设置
+
+| font属性名 | 说明 | 参数说明 |
+| :---: | :---: | :---: |
+| font-family | 字体名称 |例如：Arial，"微软雅黑"，"宋体" |
+| font-size | 字体大小 | 例如：18px，2em |
+| font-style | 字体风格 | normal(缺省)，italic, oblique|
+| font-weight | 字体粗细 | normal(缺省)，bold或数值。 |
 
 
 
-
-
-
-
-
-
+```
+.title {
+    /* 设置字体名字 */
+    font-family: "宋体", "微软雅黑", Arial;
+    /* 设置字体大小 */
+    font-size: 2em;
+    /* 设置字体粗细 */
+    font-weight: 900;
+    /* 设置字体风格 */
+    font-style: italic;
+}
+```
 
 
 
