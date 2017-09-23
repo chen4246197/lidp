@@ -204,7 +204,7 @@ a {
 ![](/assets/liebiaoyangshi.png)
 > * 列表属性主要针对的是表单（**ul和ol**）类型的列表。
 
-####6.3.1 list-style-type
+####6.3.1 list-style-type **?**
 
 
 ```
@@ -219,6 +219,27 @@ decimal (数字排序)
 lower-roman upper-roman 罗马数字
 lower-alpha upper-alpha 英文字母
 none (无列表项标记)
+
+####6.3.2 list-style-position **?**
+> * 设置列表样式位置属性，这个属性有两个值outside和inside
+
+> outside项目符号放在文本以外（默认）
+
+```
+ul li{ list-style-position:outside; width:100px; border:1px solid red;}
+```
+> inside项目符号放在文本以内
+
+
+
+```
+ul li{ list-style-position:inside; width:100px; border:1px solid red;}
+```
+
+
+
+
+
 
 
 
