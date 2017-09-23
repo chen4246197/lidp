@@ -64,6 +64,7 @@
         ```<sup>``` 标签和```<sub>``` 标签数学平方和下方描述
         ```<img>```插入图片注意src=“地址” alt=“你下载失败”。title鼠标提示符
         width和height宽和高
+        ```<hr>``` 标签分割线
 
 ```
 <body>
@@ -75,14 +76,12 @@
 * ``` <a>``` 标签
 > 可连接URL地址超链接(也可插图片)
 ```
-<body>
-    <p>在当前浏览器窗口打开连接：</p>
-    <a href="http://taobao.com/">淘宝购物</a>
-    <p>在新的浏览器窗口打开链接：</p>
-    <a target="_blank" href="http://www.baidu.com">百度一下</a>
-</body>
+普通的链接：<a href="链接地址">链接文本</a>
+图像链接： <a href="http://www.example.com/"><img src="URL" alt="替换文本"></a> 
+邮件链接： <a href="mailto:webmaster@example.com">发送e-mail</a>
+书签： <a id="tips">
+提示部分</a> <a href="#tips">跳到提示部分</a>
 ```
-如上图有href等属性
 
 * ```<br>``` 标签和```<hr>```标签,如下图
 ```
@@ -100,4 +99,19 @@
     </p>
 </body>
 ```
+##3.6 CSS用```<div>```标签和```<span>```标签
+> *```<div>```标签
+*```<sapn>```标签
+
+
+
+
+
+
+
+
+
+
+
+
 
