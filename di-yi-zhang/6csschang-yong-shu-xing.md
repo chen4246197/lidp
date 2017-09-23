@@ -8,7 +8,7 @@
 
 ![](/assets/beijingshuxing.png)
 
-###6.1.1background-color 设置元素背景色
+###6.1.1 background-color 设置元素背景色
 ```
 <style>
     /* 给.box的背景色设置为红色 */
@@ -19,7 +19,7 @@
 ```
 > * 使用 background-color 属性为元素设置背景色，其默认值是 transparent 也就是“透明”的意思，可使用颜色名称、RGB、RGBA、十六进制数来指定颜色(例如#ffff等)。
 
-##6.1.2background-image背景图片
+##6.1.2 background-image背景图片
 
 
 ```
@@ -32,7 +32,31 @@
 
 >如果需要设置一个背景图像，必须为这个属性设置一个 URL 值。
 
-##6.1.3background-repeat背景图片
+##6.1.3 background-repeat背景图片
+
+
+```
+.box {
+    background-image: url("img/11.jpg");
+    /* 设置图片不重复平铺 */
+    background-repeat: no-repeat;
+}
+
+```
+> * 使用 background-repeat 属性设置背景图片是否重复。
+
+>repeat 重复（默认值）
+
+>repeat-x 图片在横向上平铺
+
+>repeat-y 图片在纵向上平铺
+
+>no-repeat 不重复平铺
+
+
+##6.1.4 background-position背景位置
+
+
 
 
 
