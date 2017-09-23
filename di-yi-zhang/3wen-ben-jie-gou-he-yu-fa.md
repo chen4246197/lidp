@@ -34,7 +34,7 @@
 > `<h1>`标签和`<h6>`可定义标题。  
 > `<h1>` 定义最大的标题，`<h6>` 定义最小的标题。
 
-```&amp;lt;body&amp;gt;
+```js
     <h1>This is heading 1</h1>
     <h2>This is heading 2</h2>
     <h3>This is heading 3</h3>
@@ -50,18 +50,18 @@
 | justify | 两端对齐\(需要多行文本才可以看出效果\) |
 
 > 使用align属性让标题居中：
->
-> ```
+
+```
 > <body>
 >     <h1 align="center">标题</h1>
 > </body>
-> ```
+```
 
 ## 3.4段落标签
 
 > * `<p>`标签定义段落。align是通用属性，块元素都可以使用
 
-```
+```js
 <body>
     <p>我是一个段落</p>
 </body>
@@ -81,7 +81,7 @@
 >         width和height宽和高  
 >         `<hr>` 标签分割线
 
-```
+```js
 <body>
     <!--(a-b)²=a²-2ab+b²-->如下代码就是打印平方根的
     (a-b)<sup>2</sup>=a<sup>2</sup>-2ab+b<sup>2</sup>
@@ -109,7 +109,7 @@
   </body>
   ```
 
-  ```&amp;lt;body&amp;gt;
+  ```js
     <p>
     春眠不觉晓，<br/>
       处处闻啼鸟。<br/>
@@ -121,7 +121,7 @@
 
   ## 3.6 CSS用`<div>`标签和`<span>`标签
 
-  > `<div>`_标签  
+  > `<div>`_标签      
   > _`<sapn>`标签
 
 
