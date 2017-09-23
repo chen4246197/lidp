@@ -7,6 +7,7 @@
     * [3.文本结构和语法](di-yi-zhang/3wen-ben-jie-gou-he-yu-fa.md)
     * [4.CSS基础语法](di-yi-zhang/css.md)
     * [5.CSS选择器](di-yi-zhang/5cssxuan-ze-qi.md)
+    * [6.CSS常用属性](di-yi-zhang/6csschang-yong-shu-xing.md)
     * [快查标签](di-yi-zhang/kuai-cha-biao-qian.md)
 * [First Chapter](chapter1.md)
 * [网络编程](wang-luo-bian-cheng.md)
