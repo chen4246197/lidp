@@ -160,6 +160,16 @@ a {
 ```
 
 ### 6.2.6 text-decoration字间距
+> * 设置字与字之间的间距。
+
+
+```
+.title {
+     letter-spacing: 10px;
+}
+```
+
+
 
 
 
