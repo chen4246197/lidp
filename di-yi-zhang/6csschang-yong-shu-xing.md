@@ -186,6 +186,22 @@ a {
 ### 6.2.8 扩展
 
 
+```
+.title {
+     width: 5em;
+     height: 1.4em;
+     /*设置文本超出文本框时隐藏文本*/
+     overflow:hidden;
+     /*用略符号来代表被修剪的文本*/
+     text-overflow:ellipsis;
+     /*设置文本会能换行*/
+     white-space:nowrap;
+}
+```
+> * 实现溢出文本eclipsis的解决，让溢出的文字以省略号显示。
+
+
+
 
 
 
