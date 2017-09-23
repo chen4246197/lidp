@@ -204,6 +204,24 @@ a {
 ![](/assets/liebiaoyangshi.png)
 > * 列表属性主要针对的是表单（**ul和ol**）类型的列表。
 
+####6.3.1 list-style-type
+
+
+```
+ul{ list-style-type:circle;}
+```
+> 
+ * **list-style-type**
+列表样式，类型属性值可以为：
+disc (缺省值，黑圆点)
+circle (空心圆点) square (小黑方块)
+decimal (数字排序)
+lower-roman upper-roman 罗马数字
+lower-alpha upper-alpha 英文字母
+none (无列表项标记)
+
+
+
 
 
 
