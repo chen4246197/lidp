@@ -6,10 +6,11 @@
 * **网页现在的新标准是W3C**目前的模式是html+css+javascript即如下图
 * *html是网页的结构* 就是盖房子先要把结构建出来
 * *CSS是网页的样式* CSS来装饰
-* *javascript是行为*最后精装修
+* *javascript是行为*最后精装修 <pre>     <code>        **CSS代码的结构：**
 
-> ![](/assets/css主要组成.png)
 
-* **CSS代码的结构：**
+> ![](/assets/css主要组成.png)           ![](/assets/css_selector.gif)
 
-![](/assets/css_selector.gif)
+
+
+
