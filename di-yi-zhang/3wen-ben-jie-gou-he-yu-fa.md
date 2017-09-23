@@ -17,7 +17,8 @@
 `
 ```
 
-## 3.2重要标签属性
+## 3.2meta重要标签属性
+***
 
 ### meta:
 
@@ -28,6 +29,40 @@
   > ### link标签、script标签
   >
   > * 都是与CSS、JS相关的最常见的用途是链接样式表。
+
+####`<meta>` 标签- 使用实例
+> * **为搜索引擎定义关键词:**
+
+
+```
+<meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+```
+> * **为网页定义描述内容:**
+
+
+```
+<meta name="description" content="Free Web tutorials on HTML and CSS">
+```
+
+> * **定义网页作者:**
+
+
+```
+<meta name="author" content="Hege Refsnes">
+```
+
+> * **每30秒中刷新当前页面:**
+ 
+
+
+```
+<meta http-equiv="refresh" content="30">
+```
+
+***
+
+
+  
 
 ## 3.3基础标题标签
 
