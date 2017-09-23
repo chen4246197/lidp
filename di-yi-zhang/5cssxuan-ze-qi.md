@@ -225,20 +225,83 @@
 > * 子选择器代码如上图，详解如上图
 
 
-
-
-
-
-
-
-
-
-
-
-
 ---
+## 5.3属性选择器
+
+
+
+
 
 ![](/assets/shuxing.png)
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS选择器</title>
+    <style>
+        [class] {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">我是一个div标签</div>
+    <p class="title">我是一个p标签</p>
+</body>
+</html>
+```
+> * E[att]选择器代码如上图，详解如上图
+
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS选择器</title>
+    <style>
+        [class="title"] {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">我是一个div标签</div>
+    <p class="title">我是一个p标签</p>
+</body>
+</html>
+```
+> *  E[att="val"]选择器代码如上图，详解如上图
+
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS选择器</title>
+    <style>
+        [class~="block1"] {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="block1 block2">我是一个div标签</div>
+</body>
+</html>
+```
+> *  E[att~="val"]选择器代码如上图，详解如上图
+
+
+
+
+
+
+
+
+
 
 ---
 
