@@ -294,6 +294,44 @@
 ```
 > *  E[att~="val"]选择器代码如上图，详解如上图
 
+***
+##5.4伪类选择器
+
+
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS选择器</title>
+    <style>
+        /*设置超链接还为被访问之前的状态，特指a标签*/
+        a:link {
+            color: red;
+        }
+        /*设置超链接已经被访问后的状态,特指a标签*/
+        a:visited {
+            color: blue;
+        }
+        /*鼠标悬浮在标签上的状态,不限于a标签*/
+        div:hover, a:hover {
+            color: green;
+        }
+        /*元素在鼠标按下时的状态,不限于a标签*/
+        div:active, a:active {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">我是一个div标签</div>
+    <br>
+    <a href="#">百度一下</a>
+</body>
+</html>
+```
+> *  伪类通过冒号来定义，它定义了元素的状态，如点击按下、点击完等等，我们之前都是直接操作元素的样式，现在可以为元素的状态改样式，使元素看上去更“动态”。
 
 
 
@@ -301,9 +339,6 @@
 
 
 
-
-
----
 
 
 
