@@ -52,6 +52,26 @@
 
 ###4.3.3外部样式（外链式）
 
+```
+index{
+style="color:blue;margin-left:20px;
+}
+
+```
+
+```
+<head>
+    <meta charset="UTF-8">
+    <title>CSS层叠样式表</title>
+    /*引入外部的层叠样式表，href指向的是需要加载样式表的.css文件*/
+    <link rel="stylesheet" href="css/index.css">
+</head>
+```
+>* 作用如下
+    * **对于较大规模的网站**将CSS样式定义独立成一个一个的文档，可有效地提高效率，并有利于对网站风格的维护。
+    * 而无需更改HTML文档，可以改变样式表。
+    * 可以根据介质有选择的加载样式表。
+
 
 
 
