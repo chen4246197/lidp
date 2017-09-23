@@ -77,6 +77,21 @@
 ##6.1.5 background-attachment背景关联
 
 
+```
+.box {
+    background-image: url("img/link.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* 无论滚动条如何滚动，图片都在标签的最中心 */
+    background-attachment: fixed;
+}
+```
+> * 如果文档比较长，那么当文档向下滚动时，背景图像也会随之滚动。当文档滚动到超过图像的位置时，图像就会消》> 失，可以通过 background-attachment 属性防止这种滚动。
+> 通过这个属性，可以声明图像相对于可视区是固定的（fixed），因此不会受到滚动的影响
+
+
+
+
 
 
 
