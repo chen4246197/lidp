@@ -11,7 +11,8 @@
 
 > ![](/assets/css主要组成.png)         
 
-**CSS代码的结构：**
+## 4.2 **CSS代码的结构：**
+
 ![](/assets/css_selector.gif)
 
 
