@@ -73,6 +73,35 @@ style="color:blue;margin-left:20px;
 >   * 而无需更改HTML文档，可以改变样式表。
 >   * 可以根据介质有选择的加载样式表。
 
+## 4.4优先级
+***
+![](/assets/youxianji2.png)
+***
+![](/assets/youxianji.png)
+
+> * 如上图总结：**谁离body得近，谁优先级高！**
+* 有个例外的情况，就是如果外部样式放在内部样式的后面，则外部样式将覆盖内部样式.
+> * 同一组属性设置中标有**“!important”**规则的优先级最大；示例如下：
+>
+> ```js
+> <html>
+>   <head>
+>     <style type="text/css">
+>      #redP p{
+>         /*两个color属性在同一组*/
+>         color:#00f !important; /* 优先级最大 */
+>         color:#f00;
+>      }
+>     </style>
+>   </head>
+>   <body>
+>      <div id="redP">
+>        <p>color</p>
+>        <p>color</p>
+>      </div>
+>   </body>
+> </html>
+> ```
 
 
 
