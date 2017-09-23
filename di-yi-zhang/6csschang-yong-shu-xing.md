@@ -109,15 +109,14 @@
 >
 > `p{ opacity: 0;}` 隐藏一个元素 ，完全不显示，但是会占空间，只是看不到。
 
-### 6.2.3font字体设置
-
+### 6.2.3 font字体设置
+> 
 | font属性名 | 说明 | 参数说明 |
 | :---: | :---: | :---: |
 | font-family | 字体名称 |例如：Arial，"微软雅黑"，"宋体" |
 | font-size | 字体大小 | 例如：18px，2em |
 | font-style | 字体风格 | normal(缺省)，italic, oblique|
 | font-weight | 字体粗细 | normal(缺省)，bold或数值。 |
-
 
 
 ```
@@ -132,6 +131,20 @@
     font-style: italic;
 }
 ```
+### 6.2.4 text-align字体对齐
+> * 文本对齐属性text-align 属性规定元素中的文本的水平对齐方式，只能设置块级元素内文本的水平对齐> 方式。
+> 
+| text-align选项值 | 描述 |
+| :---: | :---: | 
+| left | 把文本排列到左边。默认值：由浏览器决定。 |
+| right | 把文本排列到右边。 |
+| center | 把文本排列到中间 | 
+| justify | 实现两端对齐效果 | 
+
+
+
+
+
 
 
 
