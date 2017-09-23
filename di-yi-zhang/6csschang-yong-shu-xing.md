@@ -32,7 +32,7 @@
 
 >如果需要设置一个背景图像，必须为这个属性设置一个 URL 值。
 
-##6.1.3 background-repeat背景图片
+##6.1.3 background-repeat背景图片是否重复
 
 
 ```
@@ -55,6 +55,21 @@
 
 
 ##6.1.4 background-position背景位置
+
+
+```
+.box {
+    background-image: url("img/link.jpg");
+    background-repeat: no-repeat;
+    /*距离左侧200px 顶部100px*/
+    background-position: 200px 100px;
+    /*居中对齐*/
+    background-position: 50% 50%;
+    /*左下角对齐*/
+    background-position: left bottom;
+}
+
+```
 
 
 
