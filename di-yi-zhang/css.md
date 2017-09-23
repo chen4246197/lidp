@@ -23,14 +23,32 @@
 
 ![](/assets/yinru.png)
 
-> ### 4.2.1行内样式（内联样式）
+> ### 4.3.1行内样式（内联样式）
 >
 >```js
  <p style="color:blue;margin-left:20px;">This is a paragraph.</p>
 >```
 >如上图显示出如何改变**段落的颜色**和**左外边距**
 
-##4.4 内部样式（嵌入式）
+###4.3.2 内部样式（嵌入式）
+
+
+```
+<style>
+    body {
+        /*设置背景颜色*/
+        background-color: yellow;
+    }
+
+    h1 {
+        /*设置字体颜色*/
+        color: blue;
+        /*设置字体大小*/
+        font-size: 30px;
+    }
+</style>
+```
+
 
 
 
