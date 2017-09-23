@@ -242,6 +242,15 @@ ul li{ list-style-position:inside; width:100px; border:1px solid red;}
 ul { list-style-image: url("images/icon.png"); }
 ```
 
+##6.4
+![](/assets/yuansufenlie.png)
+
+| 元素的分类 | 块级元素 |
+| : | :---: | 
+|  | 内联元素 |
+| | 内联块级元素 | 
+
+
 
 
 
