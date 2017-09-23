@@ -230,11 +230,18 @@ ul li{ list-style-position:outside; width:100px; border:1px solid red;}
 ```
 > inside项目符号放在文本以内
 
-
-
 ```
 ul li{ list-style-position:inside; width:100px; border:1px solid red;}
 ```
+
+#### 6.3.3 list-style-image
+> * 列表样式图片属性，只有一个属性url，引导一个图片。
+
+
+```
+ul { list-style-image: url("images/icon.png"); }
+```
+
 
 
 
